@@ -7,10 +7,10 @@ export async function middleware(req){
     // if(token && pathname == "/login"){
     //     return NextResponse.redirect("/")
     // }
-    // if (pathname.includes('/api/auth') || token){
-    //     return NextResponse.next();
-    // }
-    if(!token && pathname !== "/login"){
-        return NextResponse.redirect("/login");
+    if (pathname.includes('/api/auth') || token){
+        return NextResponse.next();
     }
+    // if(!token && pathname !== "/login"){
+    //     return NextResponse.redirect("/login");
+    // }
 }
