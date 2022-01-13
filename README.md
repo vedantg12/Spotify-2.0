@@ -17,7 +17,7 @@ This is my build of spotify using Next.js, react, Spotify API, Tailwindcss, Reco
 
 (7) npm install recoil
 
-(8) npm run dev -> run the application
+(8) npm run dev (runs the application)
 
 (9) Open localhost:3000 you will see a log in page.
 
